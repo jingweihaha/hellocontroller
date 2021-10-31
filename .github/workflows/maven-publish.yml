@@ -55,7 +55,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: springbootwebapi
           environment_name: Springbootwebapi-env
-          version_label: v1.0.16
+          version_label: v1.0.17
           region: us-east-2
           deployment_package: target/springcicd2-0.0.1-SNAPSHOT.war
           use_existing_version_if_available: true
