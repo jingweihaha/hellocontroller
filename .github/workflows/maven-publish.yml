@@ -40,7 +40,7 @@ jobs:
           name: Package
           path: staging
 
-      - name: list all files
+      - name: list all filess
         run: ls && cd target && ls
 
       - name: Publish to GitHub Packages Apache Maven
